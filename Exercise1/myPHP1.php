@@ -2,15 +2,22 @@
 
 function rowPrint($mult, $tag){
     echo "<tr>";
-    for($a = 0; $a <=100; $a++){
-        $val = $a * $mult;
-        if($tag == "th" && $a == 0){
-            echo "<tag> 0 </$tag>";
-        }
-        else if($tag != "th" || $a != 0){
+    if($tag == "th"){
+        echo "<tag> &nbsp </$tag>";
+        for($a = 1; $a <=100; $a++){
             echo "<tag> $val </$tag>";
         }
+        
     }
+    else{
+        $val = $a * $mult;
+        echo "<tag> $mult </$tag>";
+        for($a = 1; $a <=100; $a++){
+            echo "<tag> $val </$tag>";
+        }
+       
+    }
+    
     echo "</tr> <br>";
 
 }
