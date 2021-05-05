@@ -14,8 +14,6 @@ function getResults($answers){
     $q4 = $_POST["q4"];
     $q5 = $_POST["q5"];
     $vals = [$q1,$q2,$q3,$q4,$q5];
-    echo var_dump($vals) . "<br><br>";
-    echo var_dump($answers) . "<br><br>";
     
     $correct = 0;
     for($a = 0; $a < 5; $a++){
@@ -49,7 +47,7 @@ echo "You answered: " . $q5 .  "<br>";
 echo "Correct answer: " . $answers[4] .  "<br><br>";
 
 $num = getResults($answers);
-$percent = $num/5;
+$percent = ($num/5)*100;
 echo "Correct: " . $num . "/5<br>";
 echo "Percent: " . $percent . "%";
 echo "</span>";
