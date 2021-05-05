@@ -35,9 +35,9 @@ function getResults(){
 // echo "You answered" . $q4 .  "<br>";
 // echo "Corret answer" . $answers[3] .  "<br><br>";
 
-// echo "Question 5: Lowest key on an 88 key piano?";
-// echo "You answered" . $q5 .  "<br>";
-// echo "Corret answer" . $answers[4] .  "<br><br>";
+echo "Question 5: Lowest key on an 88 key piano?";
+echo "You answered" . $q5 .  "<br>";
+echo "Corret answer" . $answers[4] .  "<br><br>";
 
 echo getResults();
 
