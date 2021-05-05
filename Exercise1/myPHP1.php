@@ -3,7 +3,7 @@
 function rowPrint($mult, $tag){
     echo "<tr>";
     for($a = 0; $a <=100; $a++){
-        echo "<tag>" .. $a .. "</$tag>";
+        echo "<tag> $a </$tag>";
     }
     echo "</tr>";
 
