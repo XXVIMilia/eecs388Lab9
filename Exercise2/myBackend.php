@@ -9,6 +9,9 @@ $answers = array("Sam","The Boston Molasses Disaster", "19", "Lord Kelvin", "A")
 
 function getResults(){
     $vals = array(0=>$q1,1=>$q2,2=>$q3,3=>$q4,4=>$q5);
+    echo var dump($vals) . "<br>";
+    echo var dump($answers) . "<br>";
+    
     $correct = 0;
     for($a = 0; $a < 5; $a++){
         if($vals[$a] == $answers[$a]){
