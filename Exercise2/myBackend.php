@@ -7,7 +7,7 @@ $q4 = $_POST["q4"];
 $q5 = $_POST["q5"];
 
 function getResults(){
-    $vals = array[$q1,$q2,$q3,$q4,$q5];
+    //$vals = array[$q1,$q2,$q3,$q4,$q5];
     $correct = 0;
     // for($a = 0; $a < 5; $a++){
     //     if($vals[$a] == $answers[$a]){
