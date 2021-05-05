@@ -48,6 +48,9 @@ echo "Question 5: Lowest key on an 88 key piano?<br>";
 echo "You answered: " . $q5 .  "<br>";
 echo "Correct answer: " . $answers[4] .  "<br><br>";
 
-echo getResults($answers);
+$num = getResults($answers);
+$percent = $num/5;
+echo "Correct: " . $num . "/5<br>";
+echo "Percent: " . $percent . "%";
 echo "</span>";
 ?>
