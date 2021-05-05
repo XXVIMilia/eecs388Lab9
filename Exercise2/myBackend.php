@@ -17,7 +17,7 @@ function getResults(){
     return($correct);
 }
 
-// $answers = array["Sam","The Boston Molasses Disaster", "19", "Lord Kelvin", "A"];
+$answers = array["Sam","The Boston Molasses Disaster", "19", "Lord Kelvin", "A"];
 
 // echo "Question 1: Which name has the least amount of letters?";
 // echo "You answered" . $q1 .  "<br>";
@@ -37,7 +37,7 @@ function getResults(){
 
 echo "Question 5: Lowest key on an 88 key piano?";
 echo "You answered" . $q5 .  "<br>";
-echo "Corret answer" . $answers[4] .  "<br><br>";
+echo "Corret answer: " . $answers[4] .  "<br><br>";
 
 echo getResults();
 
