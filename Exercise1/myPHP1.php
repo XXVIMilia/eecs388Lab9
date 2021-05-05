@@ -6,7 +6,7 @@ function rowPrint($mult, $tag){
         $val = $a * $mult;
         echo "<tag> $val </$tag>";
     }
-    echo "</tr>";
+    echo "</tr> <br>";
 
 }
 
