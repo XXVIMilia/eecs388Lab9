@@ -3,7 +3,8 @@
 function rowPrint($mult, $tag){
     echo "<tr>";
     for($a = 0; $a <=100; $a++){
-        echo "<tag> $a </$tag>";
+        $val = $a * $mult;
+        echo "<tag> $val </$tag>";
     }
     echo "</tr>";
 
@@ -11,6 +12,9 @@ function rowPrint($mult, $tag){
 
 function printer(){
     rowPrint(1,"th");
+    for($a = 1; $a <=100; $a++){
+        rowPrint($a,"td");
+    }
     
 }
 
