@@ -19,23 +19,23 @@ function getResults(){
 
 $answers = ["Sam","The Boston Molasses Disaster", "19", "Lord Kelvin", "A"];
 
-echo "Question 1: Which name has the least amount of letters?"
+echo "Question 1: Which name has the least amount of letters?";
 echo "You answered" . $q1 .  "<br>";
 echo "Corret answer" . $answers[0] .  "<br><br>";
 
-echo "Question 2: Which significant event occured in 1918?"
+echo "Question 2: Which significant event occured in 1918?";
 echo "You answered" . $q2 .  "<br>";
 echo "Corret answer" . $answers[1] .  "<br><br>";
 
-echo "Question 3: My twin lives at the reverse of my house number. The difference between our house numbers ends in two. What are the lowest possible numbers of our house?"
+echo "Question 3: My twin lives at the reverse of my house number. The difference between our house numbers ends in two. What are the lowest possible numbers of our house?";
 echo "You answered" . $q3 .  "<br>";
 echo "Corret answer" . $answers[2] .  "<br><br>";
 
-echo "Question 4: Which Scientist had a noteworthy beard?"
+echo "Question 4: Which Scientist had a noteworthy beard?";
 echo "You answered" . $q4 .  "<br>";
 echo "Corret answer" . $answers[3] .  "<br><br>";
 
-echo "Question 5: Lowest key on an 88 key piano?"
+echo "Question 5: Lowest key on an 88 key piano?";
 echo "You answered" . $q5 .  "<br>";
 echo "Corret answer" . $answers[4] .  "<br><br>";
 
