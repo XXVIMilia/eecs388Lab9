@@ -1,10 +1,10 @@
 <?php
 
-$name = $_POST["name"];
-$email = $_POST["email"];
+$q1 = $_POST["q1"];
+//$email = $_POST["email"];
 
-echo "Name: " . $name . "<br>";
-echo "Email: " . $email . "<br>";
+echo "Name: " . $q1 . "<br>";
+//echo "Email: " . $email . "<br>";
 
 
 ?>
