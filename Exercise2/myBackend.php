@@ -5,7 +5,7 @@ $q2 = $_POST["q2"];
 $q3 = $_POST["q3"];
 $q4 = $_POST["q4"];
 $q5 = $_POST["q5"];
-$answers = array("Sam","The Boston Molasses Disaster", "19", "Lord Kelvin", "A");
+$answers = array(0=>"Sam",1=>"The Boston Molasses Disaster",2=> "19",3=> "Lord Kelvin",4=> "A");
 
 function getResults(){
     $vals = array(0=>$q1,1=>$q2,2=>$q3,3=>$q4,4=>$q5);
