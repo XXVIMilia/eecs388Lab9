@@ -3,7 +3,7 @@
 function printer(){
     for($a = 0; $a <= 100; $a++){
         if($a == 0){
-            echo " ";
+            echo "   ";
             $m = 1;
             for($b = 1; $b <=100; $b++){
                 echo "$b ";
