@@ -2,7 +2,7 @@
 
 function rowPrint($mult, $tag){
     echo "<tr>";
-    for($a = 0; $a <=100; $a++){
+    for($a = 1; $a <=100; $a++){
         $val = $a * $mult;
         echo "<tag> $val </$tag>";
     }
