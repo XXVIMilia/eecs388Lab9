@@ -3,9 +3,9 @@
 
 
 
-echo "<p>"
-echo "Wazaaaaaaaaaaaaaaaaa"
-echo "</p>"
+echo "<p>";
+echo "Wazaaaaaaaaaaaaaaaaa";
+echo "</p>";
 
 
 
