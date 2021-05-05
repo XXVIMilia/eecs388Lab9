@@ -17,7 +17,7 @@ function getResults(){
     return($correct);
 }
 
-$answers = array["Sam","The Boston Molasses Disaster", "19", "Lord Kelvin", "A"];
+$answers = array("Sam","The Boston Molasses Disaster", "19", "Lord Kelvin", "A");
 
 // echo "Question 1: Which name has the least amount of letters?";
 // echo "You answered" . $q1 .  "<br>";
