@@ -10,9 +10,9 @@ function rowPrint($mult, $tag){
         
     }
     else{
-        $val = $a * $mult;
         echo "<tag> $mult </$tag>";
         for($a = 1; $a <=100; $a++){
+            $val = $a * $mult;
             echo "<tag> $val </$tag>";
         }
        
