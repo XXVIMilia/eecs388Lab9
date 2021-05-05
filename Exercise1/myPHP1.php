@@ -5,7 +5,7 @@ function rowPrint($mult, $tag){
     if($tag == "th"){
         echo "<tag> &nbsp </$tag>";
         for($a = 1; $a <=100; $a++){
-            echo "<tag> $val </$tag>";
+            echo "<tag> $a </$tag>";
         }
         
     }
