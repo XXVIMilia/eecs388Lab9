@@ -5,9 +5,10 @@ $q2 = $_POST["q2"];
 $q3 = $_POST["q3"];
 $q4 = $_POST["q4"];
 $q5 = $_POST["q5"];
+$answers = array("Sam","The Boston Molasses Disaster", "19", "Lord Kelvin", "A");
 
 function getResults(){
-    $vals = array($q1,$q2,$q3,$q4,$q5);
+    $vals = array("$q1","$q2","$q3","$q4","$q5");
     $correct = 0;
     for($a = 0; $a < 5; $a++){
         if($vals[$a] == $answers[$a]){
@@ -17,7 +18,7 @@ function getResults(){
     return($correct);
 }
 
-$answers = array("Sam","The Boston Molasses Disaster", "19", "Lord Kelvin", "A");
+
 echo "<span style='font-size:50px'>";
 echo "Question 1: Which name has the least amount of letters?<br>";
 echo "You answered: " . $q1 .  "<br>";
