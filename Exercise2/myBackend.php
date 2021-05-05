@@ -7,7 +7,7 @@ $q4 = $_POST["q4"];
 $q5 = $_POST["q5"];
 $answers = ["Sam","The Boston Molasses Disaster","19","Lord Kelvin","A"];
 
-function getResults(){
+function getResults($answers){
     $vals = [$q1,$q2,$q3,$q4,$q5];
     echo var_dump($vals) . "<br><br>";
     echo var_dump($answers) . "<br><br>";
@@ -43,6 +43,6 @@ echo "Question 5: Lowest key on an 88 key piano?<br>";
 echo "You answered: " . $q5 .  "<br>";
 echo "Correct answer: " . $answers[4] .  "<br><br>";
 
-echo getResults();
+echo getResults($answers);
 echo "</span>";
 ?>
