@@ -3,7 +3,7 @@
 function rowPrint($mult, $tag){
     echo "<tr>";
     if($tag == "th"){
-        echo "<tag> &nbsp </$tag>";
+        echo "<tag> &nbsp &nbsp </$tag>";
         for($a = 1; $a <=100; $a++){
             echo "<tag> $a </$tag>";
         }
