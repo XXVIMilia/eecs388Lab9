@@ -8,7 +8,7 @@ $q5 = $_POST["q5"];
 $answers = array("Sam","The Boston Molasses Disaster", "19", "Lord Kelvin", "A");
 
 function getResults(){
-    $vals = array("$q1","$q2","$q3","$q4","$q5");
+    $vals = array(0=>$q1,1=>$q2,2=>$q3,3=>$q4,4=>$q5);
     $correct = 0;
     for($a = 0; $a < 5; $a++){
         if($vals[$a] == $answers[$a]){
