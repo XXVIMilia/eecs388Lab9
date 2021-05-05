@@ -7,7 +7,7 @@ function rowPrint($mult, $tag){
         if($tag == "th" && $a == 0){
             echo "<tag> 0 </$tag>";
         }
-        else if($tag != "th" && $a != 0){
+        else if($tag != "th" || $a != 0){
             echo "<tag> $val </$tag>";
         }
     }
