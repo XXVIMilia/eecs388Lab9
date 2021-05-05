@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <script type="text/javascript" src="formChecker.js">
+        </script>
+        <link href="style.css"
+            rel="stylesheet"
+            type="text/css"/>
     </head>
-        <body>
-            <form action="myBackend.php" method="post">
-                <p style="font-size:50px">Choose what Item you want:</p>
-                <p style="font-size:30px">Cheese ($5.99)<input type="text" name="ch" value="0"><br></p>
-                <p style="font-size:30px">Ham ($19.99)<input type="text" name="h" value="0"><br></p>
-                <p style="font-size:30px">Eggs ($9.99)<input type="text" name="e" value="0"><br></p>
-                <p style="font-size:30px">Corn ($3.99)<input type="text" name="c" value="0"><br></p>
-
-                <p style="font-size:50px">Enter a Quantity (integer):</p>
-                <p style="font-size:30px">#: <input type="text" name="name"><br></p>
+        <body onload="load()">
+            <form action="customerBackend.php" method="post" onsubmit="return validateForm()">
+                <p style="font-size:50px">Choose # of Item you want:</p>
+                <p style="font-size:30px">Cheese ($5.99):<input type="text" id="ch" name="ch" value="0"><br></p>
+                <p style="font-size:30px">Ham ($19.99):<input type="text" id="h" name="h" value="0"><br></p>
+                <p style="font-size:30px">Eggs ($9.99):<input type="text" id="e" name="e" value="0"><br></p>
+                <p style="font-size:30px">Corn ($3.99):<input type="text" id="c" name="c" value="0"><br></p>
 
                 <p style="font-size:50px">Choose a Shipping Option</p>
                 <p style="font-size:30px">Free 7 day<input type="radio" name="q3" value="21"><br></p>
@@ -19,11 +21,11 @@
                 <p style="font-size:30px">$5.00 three day<input type="radio" name="q3" value="12"><br></p>
 
                 <p style="font-size:50px">Customer Info</p>
-                <p style="font-size:30px">USERNAME:<input type="text" name="name"><br></p>
-                <p style="font-size:30px">PASSWORD<input type="text" name="name"><br></p>
+                <p style="font-size:30px">USERNAME:<input type="text" id="user" name="user"><br></p>
+                <p style="font-size:30px">PASSWORD<input type="text" id="pass" name="pass"><br></p>
 
-                <input type="button" value="Submit Order">
-                <input type="button" value="Reset Order">
+                <input type="submit">
+                <button type="button" onClick="load()">Reset Order</button>
             </form>
         </body>
 </html>
