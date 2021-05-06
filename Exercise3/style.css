@@ -18,6 +18,12 @@ th
     text-align: center;
 }
 
+td.alt
+{
+    background-color: aquamarine;
+    font-size: large;
+    text-align: center;
+}
 
 td
 {
