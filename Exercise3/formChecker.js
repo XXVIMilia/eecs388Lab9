@@ -29,6 +29,7 @@ function validateForm(){
     for(var i=0;i<bttn.length;i++)
         if(bttn[i].checked == true){
             ship = true;
+            alert("whaaaaaa?")
         }
 
     if(ship){
