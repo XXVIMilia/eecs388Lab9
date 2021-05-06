@@ -3,17 +3,17 @@
 function rowPrint($mult, $tag){
     echo "<tr>";
     if($tag == "th"){
-        echo "<tag> &nbsp &nbsp </$tag>";
+        echo "<th> &nbsp &nbsp </th>";
         for($a = 1; $a <=100; $a++){
-            echo "<tag> $a </$tag>";
+            echo "<th> $a </th>";
         }
         
     }
     else{
-        echo "<tag> $mult </$tag>";
+        echo "<$tag> $mult </$tag>";
         for($a = 1; $a <=100; $a++){
             $val = $a * $mult;
-            echo "<tag> $val </$tag>";
+            echo "<$tag> $val </$tag>";
         }
        
     }
