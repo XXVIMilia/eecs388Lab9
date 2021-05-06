@@ -20,11 +20,19 @@ function validateForm(){
     var bttn = document.getElementsByName("q1");
 
     for(var i = 0; i < list.length; i++){
+        if(parseInt(list[i]) < 0){
+            alert("No Negative Quantities");
+            return false;
+        }
+    }
+
+    for(var i = 0; i < list.length; i++){
         if(list[i] == ""){
             alert("Missing values");
             return false;
         }
     }
+
     var ship = false
     for(var i=0;i<bttn.length;i++)
         if(bttn[i].checked == true){
