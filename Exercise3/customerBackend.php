@@ -50,15 +50,15 @@ function createTable($cheese,$corn,$egg,$ham,$shipping){
     echo "<td> $var4 </td>";
     echo "</tr>";
 
-    if($shipping == "50"){
+    if($shipping == "fifty"){
         $var5 = 50;
         $text = '$50.00 over night';
     }
-    else if($shipping == "0"){
+    else if($shipping == "free"){
         $var5 = 0;
         $text = 'Free 7 Day Shipping';
     }
-    else if($shipping == "5"){
+    else if($shipping == "five"){
         $var5 = 5;
         $text = '$5 Three Day Shipping';
     }
