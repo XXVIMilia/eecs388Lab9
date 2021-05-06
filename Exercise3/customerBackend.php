@@ -52,20 +52,20 @@ function createTable($cheese,$corn,$egg,$ham,$shipping){
 
     if($ship == "50"){
         $var5 = 50;
-        $text = "$50.00 over night";
+        $text = '$50.00 over night';
     }
     else if($ship == "0"){
         $var5 = 0;
-        $text = "Free 7 Day Shipping";
+        $text = 'Free 7 Day Shipping';
     }
     else if($ship == "5"){
         $var5 = 5;
-        $text = "$5 Three Day Shipping";
+        $text = '$5 Three Day Shipping';
     }
     echo "<tr>";
     echo "<td class = alt> Shipping </td>";
     echo "<td colspan='2'> $text </td>";
-    echo "<td>" . $var5 . "</td>";
+    echo "<td> $var5 </td>";
     echo "</tr>";
 
 
