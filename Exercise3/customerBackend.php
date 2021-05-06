@@ -62,10 +62,10 @@ function createTable($cheese,$corn,$egg,$ham,$shipping){
         $var5 = 5;
         $text = '$5 Three Day Shipping';
     }
-    else{
-        $var5 = 10055;
-        $text = 'FUUUUUUUUUUUUUU';
-    }
+    // else{
+    //     $var5 = 10055;
+    //     $text = 'FUUUUUUUUUUUUUU';
+    // }
     echo "<tr>";
     echo "<td class = alt> Shipping </td>";
     echo "<td colspan='2'> $text </td>";
