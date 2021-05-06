@@ -72,6 +72,12 @@ function createTable($cheese,$corn,$egg,$ham,$s){
     echo "<td> $var5 </td>";
     echo "</tr>";
 
+    $var6 = $var1 + $var2 + $var3 + $var4 + $var5;
+    echo "<tr>";
+    echo "<td class = alt colspan='3'> Total Cost </td>";
+    echo "<td class = alt> $var6 </td>";
+    echo "</tr>";
+
 
     echo "</table>";
 }
