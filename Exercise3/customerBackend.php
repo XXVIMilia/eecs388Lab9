@@ -50,15 +50,15 @@ function createTable($cheese,$corn,$egg,$ham,$shipping){
     echo "<td> $var4 </td>";
     echo "</tr>";
 
-    if($ship == "50"){
+    if(implode('',$ship) == "50"){
         $var5 = 50;
         $text = '$50.00 over night';
     }
-    else if($ship == "0"){
+    else if(implode('',$ship) == "0"){
         $var5 = 0;
         $text = 'Free 7 Day Shipping';
     }
-    else if($ship == "5"){
+    else if(implode('',$ship) == "5"){
         $var5 = 5;
         $text = '$5 Three Day Shipping';
     }
@@ -67,10 +67,6 @@ function createTable($cheese,$corn,$egg,$ham,$shipping){
     echo "<td colspan='2'> $text </td>";
     echo "<td> $var5 </td>";
     echo "</tr>";
-
-
-
-
 
 
     echo "</table>";
