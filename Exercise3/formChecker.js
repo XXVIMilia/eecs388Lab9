@@ -19,7 +19,7 @@ function validateForm(){
     document.getElementById("h").value,];
     var bttn = document.getElementsByName("q1");
 
-    for(var i = 0; i < list.length; i++){
+    for(var i = 2; i < list.length; i++){
         if(parseInt(list[i]) < 0){
             alert("No Negative Quantities");
             return false;
