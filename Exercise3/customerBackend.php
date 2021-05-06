@@ -53,18 +53,18 @@ function createTable($cheese,$corn,$egg,$ham,$s){
     $var5 = $_POST["q1"];
     $text = $_POST["q1"];
 
-    // if($shipping == "fifty"){
-    //     $var5 = 50;
-    //     $text = '$50.00 over night';
-    // }
-    // else if($shipping == "free"){
-    //     $var5 = 0;
-    //     $text = 'Free 7 Day Shipping';
-    // }
-    // else if($shipping == "five"){
-    //     $var5 = 5;
-    //     $text = '$5 Three Day Shipping';
-    // }
+    if($shipping == "fifty"){
+        $var5 = 50;
+        $text = '$50.00 over night';
+    }
+    else if($shipping == "free"){
+        $var5 = 0;
+        $text = 'Free 7 Day Shipping';
+    }
+    else if($shipping == "five"){
+        $var5 = 5;
+        $text = '$5 Three Day Shipping';
+    }
 
     echo "<tr>";
     echo "<td class = alt> Shipping </td>";
