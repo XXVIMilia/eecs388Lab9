@@ -18,7 +18,7 @@ function rowPrint($mult, $tag){
        
     }
     
-    echo "</tr> <br>";
+    echo "</tr>";
 
 }
 
