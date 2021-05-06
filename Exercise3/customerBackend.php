@@ -6,7 +6,7 @@ $c = $_POST["c"];
 $ch = $_POST["ch"];
 $e = $_POST["e"];
 $h = $_POST["h"];
-$ship = $_POST["radio"];
+$ship = $_POST["q1"];
 
 function createTable($cheese,$corn,$egg,$ham,$s){
     echo "<table>";
@@ -50,8 +50,8 @@ function createTable($cheese,$corn,$egg,$ham,$s){
     echo "<td> $var4 </td>";
     echo "</tr>";
 
-    $var5 = $_POST["radio"];
-    $text = $_POST["radio"];
+    $var5 = $_POST["q1"];
+    $text = $_POST["q1"];
 
     // if($shipping == "fifty"){
     //     $var5 = 50;
