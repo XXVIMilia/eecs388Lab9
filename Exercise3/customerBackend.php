@@ -46,15 +46,26 @@ function createTable($cheese,$corn,$egg,$ham,$shipping){
     echo "<tr>";
     echo "<td class='alt'> Ham </td>";
     echo "<td> $ham </td>";
-    echo "<td> $3.99 </td>";
+    echo "<td> $19.99 </td>";
     echo "<td> $var4 </td>";
     echo "</tr>";
 
+    if($ship == "50"){
+        $var5 = 50;
+        $text = "$50.00 over night";
+    }
+    else if($ship == "0"){
+        $var5 = 0;
+        $text = "Free 7 Day Shipping";
+    }
+    else if($ship == "5"){
+        $var5 = 5;
+        $text = "$5 Three Day Shipping";
+    }
     echo "<tr>";
-    echo "<td> &nbsp &nbsp </td>";
-    echo "<td> Quantity </td>";
-    echo "<td> Cost per item </td>";
-    echo "<td> Sub Total </td>";
+    echo "<td class = alt> Shipping </td>";
+    echo "<td rowspan='2'> $text </td>";
+    echo "<td> $var5 </td>";
     echo "</tr>";
 
 
