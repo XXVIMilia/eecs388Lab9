@@ -50,6 +50,9 @@ function createTable($cheese,$corn,$egg,$ham,$shipping){
     echo "<td> $var4 </td>";
     echo "</tr>";
 
+    $var5 = 0;
+    $text = 'preval';
+
     if($shipping == "fifty"){
         $var5 = 50;
         $text = '$50.00 over night';
@@ -65,7 +68,7 @@ function createTable($cheese,$corn,$egg,$ham,$shipping){
 
     echo "<tr>";
     echo "<td class = alt> Shipping </td>";
-    echo "<td colspan='2'>" . $text . "</td>";
+    echo "<td colspan='2'> $text </td>";
     echo "<td> $var5 </td>";
     echo "</tr>";
 
