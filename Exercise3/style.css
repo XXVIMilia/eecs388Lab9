@@ -38,6 +38,7 @@ input{
 
 table
 {
-    align-self: baseline;
+    position: relative;
     scale: 2;
+    padding-top: 1cm;
 }
