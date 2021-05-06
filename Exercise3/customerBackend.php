@@ -50,8 +50,8 @@ function createTable($cheese,$corn,$egg,$ham,$s){
     echo "<td> $var4 </td>";
     echo "</tr>";
 
-    $var5 = $s;
-    $text = $s;
+    $var5 = $_POST["radio"];
+    $text = $_POST["radio"];
 
     if($shipping == "fifty"){
         $var5 = 50;
