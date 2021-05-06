@@ -50,7 +50,7 @@ function createTable($cheese,$corn,$egg,$ham,$shipping){
     echo "<td> $var4 </td>";
     echo "</tr>";
 
-    $var5 = $shipping;
+    $var5 = 5;
     $text = $shipping;
 
     if($shipping == "fifty"){
