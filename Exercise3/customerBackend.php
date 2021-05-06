@@ -6,7 +6,7 @@ $c = $_POST["c"];
 $ch = $_POST["ch"];
 $e = $_POST["e"];
 $h = $_POST["h"];
-$ship = $_POST["q3"];
+$ship = $_POST["ship"];
 
 function createTable($cheese,$corn,$egg,$ham,$shipping){
     echo "<table>";
