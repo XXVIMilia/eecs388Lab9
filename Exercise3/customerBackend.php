@@ -18,7 +18,7 @@ function createTable($cheese,$corn,$egg,$ham,$shipping){
     echo "<th> Sub Total </th>";
     echo "</tr>";
 
-    $var1 = 5.99*$cheese
+    $var1 = 5.99*$cheese;
     echo "<tr>";
     echo "<td.alt> Cheese </td.alt>";
     echo "<td> $cheese </td>";
@@ -26,7 +26,7 @@ function createTable($cheese,$corn,$egg,$ham,$shipping){
     echo "<td> $var </td>";
     echo "</tr>";
 
-    $var2 = 3.99*$corn
+    $var2 = 3.99*$corn;
     echo "<tr>";
     echo "<td.alt> Corn </td.alt>";
     echo "<td> $corn </td>";
@@ -34,7 +34,7 @@ function createTable($cheese,$corn,$egg,$ham,$shipping){
     echo "<td> $var </td>";
     echo "</tr>";
 
-    $var3 = 9.99*$egg
+    $var3 = 9.99*$egg;
     echo "<tr>";
     echo "<td.alt> Corn </td.alt>";
     echo "<td> $egg </td>";
@@ -42,7 +42,7 @@ function createTable($cheese,$corn,$egg,$ham,$shipping){
     echo "<td> $var </td>";
     echo "</tr>";
 
-    $var4 = 19.99*$ham
+    $var4 = 19.99*$ham;
     echo "<tr>";
     echo "<td.alt> Ham </td.alt>";
     echo "<td> $ham </td>";

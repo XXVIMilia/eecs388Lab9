@@ -33,6 +33,6 @@ function printer(){
 
 echo "<table>";
 printer();
-echo "</table>"
+echo "</table>";
 
 ?>
