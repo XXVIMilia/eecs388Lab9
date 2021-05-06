@@ -38,5 +38,6 @@ input{
 
 table
 {
+    align-self: baseline;
     scale: 2;
 }
