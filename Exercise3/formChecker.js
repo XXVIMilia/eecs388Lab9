@@ -25,7 +25,7 @@ function validateForm(){
             return false;
         }
     }
-    var ship = False
+    var ship = false
     for(var i=0;i<bttn.length;i++)
         if(bttn[i].checked == true){
             ship = true;
