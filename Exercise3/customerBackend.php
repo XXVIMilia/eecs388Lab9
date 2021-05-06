@@ -55,7 +55,7 @@ function createTable($cheese,$corn,$egg,$ham,$s){
 
     if($_POST["q1"] == "fifty"){
         $var5 = 50;
-        $text = '$50.00 over night';
+        $text = '$50.00 over night shipping';
     }
     else if($_POST["q1"] == "free"){
         $var5 = 0;
