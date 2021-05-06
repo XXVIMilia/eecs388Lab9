@@ -23,7 +23,7 @@ function createTable($cheese,$corn,$egg,$ham,$shipping){
     echo "<td class='alt'> Cheese </td>";
     echo "<td> $cheese </td>";
     echo "<td> $5.99 </td>";
-    echo "<td> $var </td>";
+    echo "<td> $var1 </td>";
     echo "</tr>";
 
     $var2 = 3.99*$corn;
@@ -31,7 +31,7 @@ function createTable($cheese,$corn,$egg,$ham,$shipping){
     echo "<td class='alt'> Corn </td>";
     echo "<td> $corn </td>";
     echo "<td> $3.99 </td>";
-    echo "<td> $var </td>";
+    echo "<td> $var2 </td>";
     echo "</tr>";
 
     $var3 = 9.99*$egg;
@@ -39,7 +39,7 @@ function createTable($cheese,$corn,$egg,$ham,$shipping){
     echo "<td class='alt'> Corn </td.alt>";
     echo "<td> $egg </td>";
     echo "<td> $9.99 </td>";
-    echo "<td> $var </td>";
+    echo "<td> $var3 </td>";
     echo "</tr>";
 
     $var4 = 19.99*$ham;
@@ -47,7 +47,7 @@ function createTable($cheese,$corn,$egg,$ham,$shipping){
     echo "<td class='alt'> Ham </td>";
     echo "<td> $ham </td>";
     echo "<td> $3.99 </td>";
-    echo "<td> $var </td>";
+    echo "<td> $var4 </td>";
     echo "</tr>";
 
     echo "<tr>";
