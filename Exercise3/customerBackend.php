@@ -64,7 +64,7 @@ function createTable($cheese,$corn,$egg,$ham,$shipping){
     }
     echo "<tr>";
     echo "<td class = alt> Shipping </td>";
-    echo "<td rowspan='2'> $text </td>";
+    echo "<td colspan='2'> $text </td>";
     echo "<td> $var5 </td>";
     echo "</tr>";
 
