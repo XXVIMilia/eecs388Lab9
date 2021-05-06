@@ -94,21 +94,4 @@ createTable($ch,$c,$e,$h,$ship);
         
 echo "</html>";
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ?>
