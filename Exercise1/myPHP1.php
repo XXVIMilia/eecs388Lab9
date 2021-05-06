@@ -31,7 +31,7 @@ function printer(){
 }
 
 
-echo "<table>";
+echo "<table style=marigin-top:null>";
 printer();
 echo "</table>";
 
