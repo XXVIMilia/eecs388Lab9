@@ -60,7 +60,7 @@ function createTable($cheese,$corn,$egg,$ham,$shipping){
     }
     else if($ship == "5"){
         $var5 = 5;
-        $text = "$5 Three Day Shipping";
+        $text = '$5 Three Day Shipping';
     }
     echo "<tr>";
     echo "<td class = alt> Shipping </td>";
