@@ -65,10 +65,6 @@ function createTable($cheese,$corn,$egg,$ham,$shipping){
     echo "</table>";
 }
 
-function totalCost($cheese,$corn,$egg,$ham,$shipping){
-
-}
-
 
 echo "<!DOCTYPE html>";
 echo "<html>";
