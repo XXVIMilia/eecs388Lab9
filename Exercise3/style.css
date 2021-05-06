@@ -35,3 +35,8 @@ td
 input{
     font-size: large;
 }
+
+table
+{
+    scale: 2;
+}
