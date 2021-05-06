@@ -20,7 +20,7 @@ function validateForm(){
     var bttn = document.getElementsByName("q1");
 
     for(var i = 2; i < list.length; i++){
-        if(parseInt(list[i]) < 0){
+        if(parseInt(list[i],10) < 0){
             alert("No Negative Quantities");
             return false;
         }
